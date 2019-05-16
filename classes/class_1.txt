@@ -1,14 +1,14 @@
-Class: Student
+Class: Class
 
 Attributes:
 TotalNumberOfStudents (integer)
 CurrentNumberOfStudents (integer)
-LastName (array)
-Male (boolean)
-CourseList (array)
+MaterialsList (array)
+StudentNames (array)
+
 
 Methods:
-CalculateStudentsInAttendanceToday (subtracts CurrentNumberOfStudents by TotalNumberOfStudents)
-AlphabetizeStudentsByLastName (takes first letter in last name and alphabetizes)
-CalculateFemaleStudentsInAttendanceToday (takes TotalNumberOfStudents and iterates with the boolean)
-AddStudentToACourse (appends a course to CourseList array)
+CalculateStudentsOutToday (subtracts CurrentNumberOfStudents by TotalNumberOfStudents)
+AlphabetizeStudents(takes first letter in StudentNames alphabetizes)
+AddStudent (appends student name to StudentNames array)
+AddMaterial (appends new book to MaterialsList)
