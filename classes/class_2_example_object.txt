@@ -12,3 +12,5 @@ CalculateStudentsOutToday: 35 - 31 = 4
 AddDesks: 4 x 35 = 140, 200 - 140 = 60
 OpenWindow: Yes
 AddStudent: 35 - 31 = 4
+
+*
