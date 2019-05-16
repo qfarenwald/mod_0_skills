@@ -1,0 +1,14 @@
+Class: Students
+
+Attributes:
+TotalNumberOfStudents (integer)
+CurrentNumberOfStudents (integer)
+LastName (array)
+Male (boolean)
+CourseList (array)
+
+Methods:
+CalculateStudentsInAttendanceToday (subtracts CurrentNumberOfStudents by TotalNumberOfStudents)
+AlphabetizeStudentsByLastName (takes first letter in last name and alphabetizes)
+CalculateFemaleStudentsInAttendanceToday (takes TotalNumberOfStudents and iterates with the boolean)
+AddStudentToACourse (appends a course to CourseList array)
