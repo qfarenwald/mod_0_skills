@@ -13,3 +13,6 @@ CalculateStudentsOutToday (subtracts CurrentNumberOfStudents from TotalNumberOfD
 AddDesks (takes SquareFeetOfDesk times TotalNumberOfDesks desks and subtracts from SquareFeetOfRoom to see how much square feet are left)
 OpenWindow (asks boolean if there are windows, if True, then yes)
 AddStudent (takes TotalNumberOfDesks and subtracts CurrentNumberofStudents to see if there are any desks left where a new student can sit)
+
+
+*
