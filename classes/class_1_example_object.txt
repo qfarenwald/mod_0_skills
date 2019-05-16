@@ -1,0 +1,12 @@
+Object: Science
+
+Attributes:
+TotalNumberOfStudents = 35
+CurrentNumberOfStudents = 31
+MaterialsList (array) = ["Book 1", "Book 2", "Pencil"]
+StudentNames (array) = ["Jesse James", "Willy Wonka", "Abby Apple"]
+
+CalculateStudentsOutToday: 35 - 31 = 4
+AlphabetizeStudents:["Jesse James", "Willy Wonka", "Abby Apple"] = ["Abby Apple", "Jesse James", "Willy Wonka"]
+AddStudent: ["Jesse James", "Willy Wonka", "Abby Apple"] + Quinne Farenwald = ["Jesse James", "Willy Wonka", "Abby Apple", "Quinne Farenwald"]
+AddMaterial: ["Book 1", "Book 2", "Pencil"] + "Book 3" = ["Book 1", "Book 2", "Pencil", "Book 3"]
